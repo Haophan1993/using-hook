@@ -11,7 +11,8 @@ const Content = ()=>{
             (item)=>
             item.id===id?{...item, checked: !item.checked}:item);
 
-            setItems(listItem)
+            setItems(listItem);
+            localStorage.setItem('shoppinglist', JSON.stringify(listItem));
 
 
         
