@@ -1,6 +1,6 @@
-const Footer = ()=>{
+const Footer = ({length})=>{
     return(
-        <p>Footer</p>
+        <p>{length}</p>
     )
 }
 
